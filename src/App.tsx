@@ -1,4 +1,6 @@
 import TestimonialCard from "./components/TestimonialCard/TestimonialCard";
+import profileThumbnail from "/src/assets/profile-thumbnail.png";
+
 import "./App.css";
 
 function App() {
@@ -8,7 +10,7 @@ function App() {
       <TestimonialCard
         name="Sarah Dole"
         username="sarahdole"
-        profileImg="/src/assets/profile-thumbnail.png" // Place this inside `public/assets/`
+        profileImg={profileThumbnail}
         content="I've been searching for high-quality abstract images for my design projects, and I'm thrilled to have found this platform. The variety and depth of creativity are astounding!"
       />
 
