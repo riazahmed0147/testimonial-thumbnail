@@ -8,7 +8,7 @@ function App() {
       <TestimonialCard
         name="Sarah Dole"
         username="sarahdole"
-        profileImg="/public/profile-thumbnail.png" // Place this inside `public/assets/`
+        profileImg="/profile-thumbnail.png" // Place this inside `public/assets/`
         content="I've been searching for high-quality abstract images for my design projects, and I'm thrilled to have found this platform. The variety and depth of creativity are astounding!"
       />
 
